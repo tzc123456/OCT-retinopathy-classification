@@ -1,0 +1,239 @@
+DeepCoral BC----------3------
+Namespace(backbone='resnet50', batch_size=32, config='DeepCoral/DeepCoral.yaml', data_dir='/home/xiaoxie/data/tzc/domain_adaptation/DA/data', device=device(type='cuda'), early_stop=0, epoch_based_training=False, lr=0.01, lr_decay=0.75, lr_gamma=0.0003, lr_scheduler=True, momentum=0.9, n_epoch=100, n_iter_per_epoch=500, num_workers=4, seed=1, src_domain='B', tgt_domain='C', transfer_loss='coral', transfer_loss_weight=0.5, use_bottleneck=True, weight_decay=0.0005)
+0
+start save
+save model
+tensor(65.1000, device='cuda:0')
+Epoch: [ 1/100], cls_loss: 0.1694, transfer_loss: 0.0018, total_Loss: 0.1703, test_loss 1.756185, test_acc: 65.1000
+0
+Epoch: [ 2/100], cls_loss: 0.0372, transfer_loss: 0.0034, total_Loss: 0.0389, test_loss 1.949144, test_acc: 63.0333
+0
+start save
+save model
+tensor(66.9000, device='cuda:0')
+Epoch: [ 3/100], cls_loss: 0.0182, transfer_loss: 0.0029, total_Loss: 0.0197, test_loss 1.697032, test_acc: 66.9000
+0
+Epoch: [ 4/100], cls_loss: 0.0075, transfer_loss: 0.0026, total_Loss: 0.0088, test_loss 2.078372, test_acc: 64.2667
+0
+start save
+save model
+tensor(70.3333, device='cuda:0')
+Epoch: [ 5/100], cls_loss: 0.0064, transfer_loss: 0.0020, total_Loss: 0.0074, test_loss 1.683235, test_acc: 70.3333
+0
+Epoch: [ 6/100], cls_loss: 0.0056, transfer_loss: 0.0018, total_Loss: 0.0065, test_loss 1.794984, test_acc: 69.8333
+0
+start save
+save model
+tensor(73.0667, device='cuda:0')
+Epoch: [ 7/100], cls_loss: 0.0033, transfer_loss: 0.0015, total_Loss: 0.0041, test_loss 1.581135, test_acc: 73.0667
+0
+start save
+save model
+tensor(74.1000, device='cuda:0')
+Epoch: [ 8/100], cls_loss: 0.0022, transfer_loss: 0.0014, total_Loss: 0.0028, test_loss 1.407869, test_acc: 74.1000
+0
+Epoch: [ 9/100], cls_loss: 0.0019, transfer_loss: 0.0012, total_Loss: 0.0025, test_loss 1.539138, test_acc: 73.0667
+0
+Epoch: [10/100], cls_loss: 0.0011, transfer_loss: 0.0011, total_Loss: 0.0016, test_loss 1.561807, test_acc: 72.7333
+0
+Epoch: [11/100], cls_loss: 0.0012, transfer_loss: 0.0011, total_Loss: 0.0017, test_loss 1.672697, test_acc: 70.2333
+0
+Epoch: [12/100], cls_loss: 0.0020, transfer_loss: 0.0010, total_Loss: 0.0025, test_loss 1.375178, test_acc: 73.9333
+0
+start save
+save model
+tensor(75.9667, device='cuda:0')
+Epoch: [13/100], cls_loss: 0.0011, transfer_loss: 0.0009, total_Loss: 0.0016, test_loss 1.317497, test_acc: 75.9667
+0
+Epoch: [14/100], cls_loss: 0.0009, transfer_loss: 0.0009, total_Loss: 0.0014, test_loss 1.374266, test_acc: 75.2667
+0
+Epoch: [15/100], cls_loss: 0.0008, transfer_loss: 0.0008, total_Loss: 0.0012, test_loss 1.367829, test_acc: 75.1333
+0
+Epoch: [16/100], cls_loss: 0.0007, transfer_loss: 0.0008, total_Loss: 0.0011, test_loss 1.420400, test_acc: 74.7667
+0
+Epoch: [17/100], cls_loss: 0.0009, transfer_loss: 0.0008, total_Loss: 0.0013, test_loss 1.350833, test_acc: 75.9667
+0
+Epoch: [18/100], cls_loss: 0.0011, transfer_loss: 0.0008, total_Loss: 0.0015, test_loss 1.324771, test_acc: 75.3333
+0
+Epoch: [19/100], cls_loss: 0.0009, transfer_loss: 0.0007, total_Loss: 0.0012, test_loss 1.312697, test_acc: 75.6000
+0
+start save
+save model
+tensor(78.2333, device='cuda:0')
+Epoch: [20/100], cls_loss: 0.0007, transfer_loss: 0.0007, total_Loss: 0.0011, test_loss 1.171211, test_acc: 78.2333
+0
+Epoch: [21/100], cls_loss: 0.0003, transfer_loss: 0.0006, total_Loss: 0.0007, test_loss 1.192122, test_acc: 76.3000
+0
+Epoch: [22/100], cls_loss: 0.0005, transfer_loss: 0.0007, total_Loss: 0.0009, test_loss 1.306713, test_acc: 76.2667
+0
+Epoch: [23/100], cls_loss: 0.0005, transfer_loss: 0.0006, total_Loss: 0.0008, test_loss 1.209630, test_acc: 76.5667
+0
+start save
+save model
+tensor(78.9000, device='cuda:0')
+Epoch: [24/100], cls_loss: 0.0012, transfer_loss: 0.0006, total_Loss: 0.0015, test_loss 1.114473, test_acc: 78.9000
+0
+Epoch: [25/100], cls_loss: 0.0007, transfer_loss: 0.0006, total_Loss: 0.0010, test_loss 1.313076, test_acc: 75.6000
+0
+Epoch: [26/100], cls_loss: 0.0007, transfer_loss: 0.0006, total_Loss: 0.0010, test_loss 1.217895, test_acc: 77.9000
+0
+Epoch: [27/100], cls_loss: 0.0006, transfer_loss: 0.0006, total_Loss: 0.0009, test_loss 1.204061, test_acc: 76.8000
+0
+start save
+save model
+tensor(79.0333, device='cuda:0')
+Epoch: [28/100], cls_loss: 0.0005, transfer_loss: 0.0006, total_Loss: 0.0008, test_loss 1.167200, test_acc: 79.0333
+0
+Epoch: [29/100], cls_loss: 0.0006, transfer_loss: 0.0006, total_Loss: 0.0009, test_loss 1.242842, test_acc: 77.6667
+0
+Epoch: [30/100], cls_loss: 0.0009, transfer_loss: 0.0006, total_Loss: 0.0012, test_loss 1.189697, test_acc: 77.9000
+0
+Epoch: [31/100], cls_loss: 0.0005, transfer_loss: 0.0005, total_Loss: 0.0008, test_loss 1.243670, test_acc: 76.8667
+0
+Epoch: [32/100], cls_loss: 0.0005, transfer_loss: 0.0006, total_Loss: 0.0008, test_loss 1.298013, test_acc: 76.0667
+0
+Epoch: [33/100], cls_loss: 0.0004, transfer_loss: 0.0005, total_Loss: 0.0007, test_loss 1.246596, test_acc: 76.7667
+0
+Epoch: [34/100], cls_loss: 0.0004, transfer_loss: 0.0005, total_Loss: 0.0007, test_loss 1.254780, test_acc: 76.3667
+0
+Epoch: [35/100], cls_loss: 0.0005, transfer_loss: 0.0005, total_Loss: 0.0007, test_loss 1.261107, test_acc: 76.2000
+0
+Epoch: [36/100], cls_loss: 0.0005, transfer_loss: 0.0005, total_Loss: 0.0008, test_loss 1.200452, test_acc: 77.9333
+0
+Epoch: [37/100], cls_loss: 0.0004, transfer_loss: 0.0005, total_Loss: 0.0006, test_loss 1.253040, test_acc: 76.5000
+0
+Epoch: [38/100], cls_loss: 0.0005, transfer_loss: 0.0005, total_Loss: 0.0008, test_loss 1.157847, test_acc: 78.2667
+0
+Epoch: [39/100], cls_loss: 0.0004, transfer_loss: 0.0005, total_Loss: 0.0006, test_loss 1.145996, test_acc: 78.3667
+0
+start save
+save model
+tensor(80.1333, device='cuda:0')
+Epoch: [40/100], cls_loss: 0.0005, transfer_loss: 0.0005, total_Loss: 0.0008, test_loss 1.028392, test_acc: 80.1333
+0
+Epoch: [41/100], cls_loss: 0.0003, transfer_loss: 0.0005, total_Loss: 0.0005, test_loss 1.153206, test_acc: 78.1333
+0
+Epoch: [42/100], cls_loss: 0.0005, transfer_loss: 0.0005, total_Loss: 0.0008, test_loss 1.157913, test_acc: 78.4333
+0
+Epoch: [43/100], cls_loss: 0.0007, transfer_loss: 0.0005, total_Loss: 0.0009, test_loss 1.250218, test_acc: 76.9667
+0
+Epoch: [44/100], cls_loss: 0.0005, transfer_loss: 0.0005, total_Loss: 0.0008, test_loss 1.062317, test_acc: 79.9333
+0
+Epoch: [45/100], cls_loss: 0.0004, transfer_loss: 0.0005, total_Loss: 0.0007, test_loss 1.085515, test_acc: 79.7333
+0
+start save
+save model
+tensor(80.6333, device='cuda:0')
+Epoch: [46/100], cls_loss: 0.0005, transfer_loss: 0.0005, total_Loss: 0.0007, test_loss 1.018040, test_acc: 80.6333
+0
+Epoch: [47/100], cls_loss: 0.0005, transfer_loss: 0.0004, total_Loss: 0.0007, test_loss 1.117753, test_acc: 79.2667
+0
+Epoch: [48/100], cls_loss: 0.0003, transfer_loss: 0.0004, total_Loss: 0.0005, test_loss 1.209335, test_acc: 77.2333
+0
+Epoch: [49/100], cls_loss: 0.0003, transfer_loss: 0.0005, total_Loss: 0.0006, test_loss 1.171831, test_acc: 78.0667
+0
+Epoch: [50/100], cls_loss: 0.0007, transfer_loss: 0.0005, total_Loss: 0.0009, test_loss 1.095398, test_acc: 79.7000
+0
+Epoch: [51/100], cls_loss: 0.0004, transfer_loss: 0.0005, total_Loss: 0.0006, test_loss 1.144070, test_acc: 78.5000
+0
+Epoch: [52/100], cls_loss: 0.0003, transfer_loss: 0.0004, total_Loss: 0.0005, test_loss 1.180850, test_acc: 77.5000
+0
+Epoch: [53/100], cls_loss: 0.0007, transfer_loss: 0.0004, total_Loss: 0.0009, test_loss 1.158798, test_acc: 78.7667
+0
+Epoch: [54/100], cls_loss: 0.0003, transfer_loss: 0.0004, total_Loss: 0.0005, test_loss 1.168558, test_acc: 78.0333
+0
+Epoch: [55/100], cls_loss: 0.0003, transfer_loss: 0.0005, total_Loss: 0.0006, test_loss 1.268197, test_acc: 76.3333
+0
+Epoch: [56/100], cls_loss: 0.0003, transfer_loss: 0.0004, total_Loss: 0.0005, test_loss 1.099232, test_acc: 78.9333
+0
+Epoch: [57/100], cls_loss: 0.0004, transfer_loss: 0.0004, total_Loss: 0.0007, test_loss 1.153979, test_acc: 77.5333
+0
+Epoch: [58/100], cls_loss: 0.0004, transfer_loss: 0.0004, total_Loss: 0.0006, test_loss 1.208339, test_acc: 77.6000
+0
+Epoch: [59/100], cls_loss: 0.0004, transfer_loss: 0.0005, total_Loss: 0.0006, test_loss 1.146042, test_acc: 78.3333
+0
+Epoch: [60/100], cls_loss: 0.0006, transfer_loss: 0.0005, total_Loss: 0.0008, test_loss 1.244005, test_acc: 76.9667
+0
+Epoch: [61/100], cls_loss: 0.0004, transfer_loss: 0.0005, total_Loss: 0.0006, test_loss 1.227841, test_acc: 77.1667
+0
+Epoch: [62/100], cls_loss: 0.0003, transfer_loss: 0.0004, total_Loss: 0.0005, test_loss 1.102256, test_acc: 78.6000
+0
+Epoch: [63/100], cls_loss: 0.0004, transfer_loss: 0.0004, total_Loss: 0.0006, test_loss 1.111407, test_acc: 79.3333
+0
+Epoch: [64/100], cls_loss: 0.0003, transfer_loss: 0.0004, total_Loss: 0.0005, test_loss 1.096541, test_acc: 79.3667
+0
+Epoch: [65/100], cls_loss: 0.0004, transfer_loss: 0.0004, total_Loss: 0.0006, test_loss 1.146326, test_acc: 78.3000
+0
+Epoch: [66/100], cls_loss: 0.0004, transfer_loss: 0.0004, total_Loss: 0.0006, test_loss 1.120954, test_acc: 79.1000
+0
+Epoch: [67/100], cls_loss: 0.0003, transfer_loss: 0.0004, total_Loss: 0.0005, test_loss 1.097425, test_acc: 78.7667
+0
+Epoch: [68/100], cls_loss: 0.0005, transfer_loss: 0.0004, total_Loss: 0.0007, test_loss 1.200647, test_acc: 76.9667
+0
+Epoch: [69/100], cls_loss: 0.0007, transfer_loss: 0.0004, total_Loss: 0.0009, test_loss 1.125820, test_acc: 78.6333
+0
+Epoch: [70/100], cls_loss: 0.0004, transfer_loss: 0.0004, total_Loss: 0.0007, test_loss 1.174877, test_acc: 78.1000
+0
+Epoch: [71/100], cls_loss: 0.0005, transfer_loss: 0.0004, total_Loss: 0.0008, test_loss 1.058069, test_acc: 79.3667
+0
+Epoch: [72/100], cls_loss: 0.0003, transfer_loss: 0.0004, total_Loss: 0.0006, test_loss 1.072481, test_acc: 79.3333
+0
+Epoch: [73/100], cls_loss: 0.0004, transfer_loss: 0.0004, total_Loss: 0.0006, test_loss 1.094512, test_acc: 78.7333
+0
+Epoch: [74/100], cls_loss: 0.0004, transfer_loss: 0.0004, total_Loss: 0.0006, test_loss 1.087587, test_acc: 78.7667
+0
+Epoch: [75/100], cls_loss: 0.0003, transfer_loss: 0.0004, total_Loss: 0.0005, test_loss 1.086695, test_acc: 79.3000
+0
+Epoch: [76/100], cls_loss: 0.0003, transfer_loss: 0.0004, total_Loss: 0.0005, test_loss 1.047649, test_acc: 80.0667
+0
+start save
+save model
+tensor(80.8333, device='cuda:0')
+Epoch: [77/100], cls_loss: 0.0004, transfer_loss: 0.0004, total_Loss: 0.0006, test_loss 0.972365, test_acc: 80.8333
+0
+Epoch: [78/100], cls_loss: 0.0004, transfer_loss: 0.0004, total_Loss: 0.0006, test_loss 1.102592, test_acc: 78.9667
+0
+Epoch: [79/100], cls_loss: 0.0005, transfer_loss: 0.0004, total_Loss: 0.0007, test_loss 1.047795, test_acc: 79.9000
+0
+Epoch: [80/100], cls_loss: 0.0003, transfer_loss: 0.0004, total_Loss: 0.0005, test_loss 1.036896, test_acc: 80.2000
+0
+Epoch: [81/100], cls_loss: 0.0004, transfer_loss: 0.0004, total_Loss: 0.0006, test_loss 1.026998, test_acc: 79.8333
+0
+Epoch: [82/100], cls_loss: 0.0003, transfer_loss: 0.0004, total_Loss: 0.0005, test_loss 1.036731, test_acc: 78.8333
+0
+Epoch: [83/100], cls_loss: 0.0003, transfer_loss: 0.0004, total_Loss: 0.0005, test_loss 1.188865, test_acc: 77.4000
+0
+Epoch: [84/100], cls_loss: 0.0004, transfer_loss: 0.0004, total_Loss: 0.0006, test_loss 1.262695, test_acc: 75.9333
+0
+Epoch: [85/100], cls_loss: 0.0006, transfer_loss: 0.0004, total_Loss: 0.0008, test_loss 1.001839, test_acc: 79.9667
+0
+Epoch: [86/100], cls_loss: 0.0003, transfer_loss: 0.0004, total_Loss: 0.0005, test_loss 1.132966, test_acc: 78.1667
+0
+Epoch: [87/100], cls_loss: 0.0003, transfer_loss: 0.0004, total_Loss: 0.0005, test_loss 1.099784, test_acc: 78.9333
+0
+Epoch: [88/100], cls_loss: 0.0004, transfer_loss: 0.0004, total_Loss: 0.0006, test_loss 0.998774, test_acc: 80.2000
+0
+Epoch: [89/100], cls_loss: 0.0004, transfer_loss: 0.0004, total_Loss: 0.0006, test_loss 1.080008, test_acc: 79.4000
+0
+Epoch: [90/100], cls_loss: 0.0005, transfer_loss: 0.0004, total_Loss: 0.0007, test_loss 0.996777, test_acc: 80.6333
+0
+Epoch: [91/100], cls_loss: 0.0004, transfer_loss: 0.0004, total_Loss: 0.0006, test_loss 1.005227, test_acc: 80.4333
+0
+Epoch: [92/100], cls_loss: 0.0003, transfer_loss: 0.0004, total_Loss: 0.0005, test_loss 1.087134, test_acc: 78.8000
+0
+Epoch: [93/100], cls_loss: 0.0006, transfer_loss: 0.0004, total_Loss: 0.0008, test_loss 1.146374, test_acc: 78.3667
+0
+Epoch: [94/100], cls_loss: 0.0004, transfer_loss: 0.0004, total_Loss: 0.0006, test_loss 1.021241, test_acc: 79.7000
+0
+Epoch: [95/100], cls_loss: 0.0003, transfer_loss: 0.0004, total_Loss: 0.0005, test_loss 0.974706, test_acc: 80.2333
+0
+Epoch: [96/100], cls_loss: 0.0003, transfer_loss: 0.0004, total_Loss: 0.0005, test_loss 1.110590, test_acc: 77.7333
+0
+Epoch: [97/100], cls_loss: 0.0005, transfer_loss: 0.0004, total_Loss: 0.0007, test_loss 1.082837, test_acc: 78.9333
+0
+Epoch: [98/100], cls_loss: 0.0004, transfer_loss: 0.0004, total_Loss: 0.0006, test_loss 1.104014, test_acc: 78.6333
+0
+Epoch: [99/100], cls_loss: 0.0003, transfer_loss: 0.0004, total_Loss: 0.0005, test_loss 1.080491, test_acc: 78.0000
+0
+Epoch: [100/100], cls_loss: 0.0004, transfer_loss: 0.0004, total_Loss: 0.0006, test_loss 1.116348, test_acc: 77.9333
+Transfer result: 80.8333
